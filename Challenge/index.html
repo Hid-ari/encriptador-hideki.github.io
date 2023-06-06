@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="logo de alura" >
+    </header>
+    <div class="container">
+        <main>
+            <section>
+                <textarea class="text-area" cols="20" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div class="botones2">
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ariyamahideki/" target="_blank"><img src="imagenes/LinkedIn.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/Hid-ari" target="_blank"><img src="imagenes/GitHub.png" alt="GitHub"></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 Hideki Ariyama.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
